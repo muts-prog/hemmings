@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder portrait for Charles Gakuhah Nyamu">
+  <circle cx="100" cy="100" r="100" fill="#3C5A45"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#D9A441" stroke-width="2" stroke-dasharray="3 6"/>
+  <circle cx="100" cy="82" r="34" fill="#F3EADA" opacity="0.92"/>
+  <path d="M48 168 C48 128 72 110 100 110 C128 110 152 128 152 168 Z" fill="#F3EADA" opacity="0.92"/>
+  <text x="100" y="108" text-anchor="middle" font-family="monospace" font-size="34" fill="#3C5A45" font-weight="700">CN</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Transport icon">
+  <rect x="4" y="30" width="38" height="18" rx="2" fill="#B5502B"/>
+  <path d="M42 30 L52 30 L60 40 L60 48 L42 48 Z" fill="#8E3D20"/>
+  <rect x="46" y="33" width="10" height="8" fill="#F3EADA" opacity="0.85"/>
+  <circle cx="16" cy="50" r="6.5" fill="#2A2521"/>
+  <circle cx="16" cy="50" r="2.6" fill="#D9A441"/>
+  <circle cx="48" cy="50" r="6.5" fill="#2A2521"/>
+  <circle cx="48" cy="50" r="2.6" fill="#D9A441"/>
+  <line x1="4" y1="58" x2="60" y2="58" stroke="#2A2521" stroke-width="2" stroke-dasharray="5 4"/>
+</svg>
