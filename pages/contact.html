@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Hemmings Limited</title>
+<title>Contact - Hemmings Limited</title>
 <meta name="description" content="Get in touch with Hemmings Limited for vehicle hire or construction management anywhere in Kenya. Headquartered in Thika.">
 <link rel="icon" href="../images/logo-mark.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../css/styles.css">
@@ -57,7 +57,7 @@
           </div>
           <div class="contact-detail">
             <span class="label">Coverage</span>
-            <span class="value">Headquartered in Thika — serving clients nationwide across Kenya</span>
+            <span class="value">Headquartered in Thika, serving clients nationwide across Kenya</span>
           </div>
           <div class="contact-detail">
             <span class="label">Address</span>
@@ -65,11 +65,11 @@
           </div>
           <div class="contact-detail">
             <span class="label">Email</span>
-            <span class="value"><a href="mailto:hemmings2008@gmail.com">hemmings2008@gmail.com</a></span>
+            <span class="value"><a href="mailto:info@hemmingsltd.com">info@hemmingsltd.com</a></span>
           </div>
           <div class="contact-detail">
             <span class="label">Phone</span>
-            <span class="value"><a href="tel:+254740194954">0740 194 954</a> — call and ask to be directed to vehicle hire or construction</span>
+            <span class="value"><a href="tel:+254740194954">0740 194 954</a>. Call and ask to be directed to vehicle hire or construction</span>
           </div>
           <div class="contact-detail">
             <span class="label">Services</span>
@@ -78,7 +78,13 @@
         </div>
 
         <div class="reveal">
-          <form class="contact-form" novalidate>
+          <form class="contact-form" action="https://formsubmit.co/hemmings2008@gmail.com" method="POST" novalidate>
+            <!-- Sends to hemmings2008@gmail.com, with a copy to cgakuhah@gmail.com via _cc below.
+                 First submission triggers a one-time confirmation email to hemmings2008@gmail.com,
+                 click the link in it once to activate delivery. -->
+            <input type="hidden" name="_cc" value="cgakuhah@gmail.com">
+            <input type="hidden" name="_subject" value="New request from Hemmings Limited website">
+            <input type="hidden" name="_template" value="table">
             <div class="form-row">
               <label for="name">Full name</label>
               <input type="text" id="name" name="name" required>
@@ -92,11 +98,13 @@
               <select id="service" name="service">
                 <option value="vehicle">Hire of a vehicle</option>
                 <option value="construction">Construction management</option>
+                <option value="project-management">Project management as a service</option>
+                <option value="equipment">Construction equipment hire</option>
                 <option value="other">Something else</option>
               </select>
             </div>
             <div class="form-row">
-              <label for="vehicle-type">If a vehicle — which type? (optional)</label>
+              <label for="vehicle-type">If a vehicle, which type? (optional)</label>
               <select id="vehicle-type" name="vehicle-type">
                 <option value="">Not applicable</option>
                 <option value="pickup">Pickup</option>
@@ -110,7 +118,6 @@
               <textarea id="message" name="message" rows="5" placeholder="Dates needed, route or site location, load or scope of work..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send request</button>
-            <p class="form-note">This form is a front-end demo — requests don't reach anyone yet. To route these straight to your admin inbox, connect it to a service such as Formspree or Getform, or to your own backend — see the comment in <code>js/main.js</code>. Until then, please call <a href="tel:+254740194954">0740 194 954</a>.</p>
             <div class="form-success" role="status"></div>
           </form>
         </div>
@@ -147,7 +154,7 @@
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="mailto:hemmings2008@gmail.com">hemmings2008@gmail.com</a></li>
+          <li><a href="mailto:info@hemmingsltd.com">info@hemmingsltd.com</a></li>
           <li><a href="tel:+254740194954">0740 194 954</a></li>
           <li>P.O. Box 3534-01002, Thika</li>
         </ul>
